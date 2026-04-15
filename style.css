@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: #000000;
+}
+
+.container-buttons {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #79cb15;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 110px;
+    transform: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;
+}
+
+li {
+    border: 2px solid #8133ff;
+    border-radius: 12px;
+    padding: 5px;
+    transition: 0.3s;
+    background: #111;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+li:hover {
+    transform: translateY(-5px);
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+p {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.item-price {
+    color: #79cb15;
+}
+
+.img-x-salada {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.h11  {
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.old-price {
+    color: #888;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.promoçao {
+    display: inline-block;
+    background: #ff0000;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.add-button {
+    width: 100%;
+    margin-top: 10px;
+    background: #79cb15;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-button:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+.cart-total {
+    color: #79cb15;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.cart-list button {
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.price-total {
+    color: gold;
+    font-weight: bold;
+    font-size: 18px;
+}
