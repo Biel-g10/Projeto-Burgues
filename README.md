@@ -9,6 +9,9 @@
 <br>
 Sistema de delivery desenvolvido com JavaScript, simulando regras reais de e-commerce com carrinho inteligente, filtros e atualização dinâmica da interface.
 
+## 🚀 Demo
+[Ver projeto online](https://biel-g10.github.io/Projeto-Burgues/)
+
 
 ## 📸 Preview
   
