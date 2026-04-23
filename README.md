@@ -53,10 +53,3 @@ Neste projeto trabalhei conceitos importantes de desenvolvimento front-end:
 - Estruturação de componentes em JavaScript
 
 
-## ▶️ Como executar
-
-```bash
-git clone https://github.com/Biel-g10/Projeto-Burgues.git
-```
-
-Abra o index.html no navegador
